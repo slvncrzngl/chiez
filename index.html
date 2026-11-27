@@ -237,7 +237,7 @@ h2{font-size:clamp(1.6rem,5.5vh,2.8rem);margin-bottom:2.4vh}
     jhs:'awards/katunayan-junior-high.jpg',
     pupil:'awards/courteous-pupil-with-honors.jpg',
     mall:'family/mother-angel-gay-soliven.jpg',
-    beach:'family/papa-tito-mark-oliven-aguda.jpg',
+    beach:'family/papa-tito-mark-oliver-aguda.jpg',
     squad:'friends/squad-selfie.jpg',
     night:'family/siblings-night-out.jpg'
   };
@@ -353,7 +353,8 @@ h2{font-size:clamp(1.6rem,5.5vh,2.8rem);margin-bottom:2.4vh}
   var edu=[
     ['College Level','University of the Cordilleras \u00B7 BSIT \u00B7 1st Year','Currently Enrolled','2026 \u2013 Present',true],
     ['Senior High School Graduate','Pines City National High School \u00B7 TVL-ICT (Animation)','Graduated 2026','',false],
-    ['Junior High School Completer','Pines City National High School','Completed 2024','',false]
+    ['Junior High School Completer','Pines City National High School','Completed 2024','',false],
+    ['Elementary Graduate','Calog Sur Elementary School','Graduated','',false]
   ];
   document.getElementById('edu').innerHTML=edu.map(function(e){
     return '<div class="ecard"><h3>'+e[0]+'</h3><p>'+e[1]+'</p><span class="badge'+(e[4]?' now':'')+'">'+e[2]+'</span>'+(e[3]?'<span class="code">'+e[3]+'</span>':'')+'</div>';
